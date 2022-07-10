@@ -1,11 +1,11 @@
 # inequality-plot
 
-**INEQUALITYPLOT**  Plot inequalities in 2-D space.
+**inequalityplot** Plot inequalities in 2-D space.
 
-`INEQUALITYPLOT(f,x,y,color,resolution)` plots the inequality `f(x,y)` in 
+`inequalityplot(f,x,y,color,resolution)` plots the inequality `f(x,y)` in 
 region `x(1) <= x <= x(2)` and `y(1) <= y <= y(2)` using specified color.
 For multiple inequalities, use `&` in `f`. Default color is `[0.5,0.75,1]`. 
-Default resolution is 400.
+Default resolution is `400`.
 
 *Example 1: A colored ellipse.*
 ``` [matlab]
@@ -25,7 +25,5 @@ Default resolution is 400.
   inequalityplot(@(x,y) y<g(x) & y>0 & x>-2 & x<1,[-3,3],[0,0.5],'c')
   hold on; fplot(g,[-3,3],'LineWidth',1); hold off
 ```
-
-See also PLOT, FPLOT, AREA, PCOLOR, CONTOUR.
 
 Author: Ildeberto de los Santos Ruiz, idelossantos@ittg.edu.mx
