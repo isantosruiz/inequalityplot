@@ -20,7 +20,7 @@ function inequalityplot(f,x,y,color,resolution)
 %
 %      g = @(x) 1/sqrt(2*pi)*exp(-x.^2/2);
 %      inequalityplot(@(x,y) y<g(x) & y>0 & x>-2 & x<1,[-3,3],[0,0.5],'c')
-%      hold on; fplot(g,[-3,3],'LineWidth',2); hold off
+%      hold on; fplot(g,[-3,3],'LineWidth',1); hold off
 %
 %   See also PLOT, FPLOT, AREA, PCOLOR, CONTOUR.
 %
