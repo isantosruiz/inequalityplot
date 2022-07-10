@@ -1,6 +1,6 @@
-# inequality-plot
+# inequalityplot
 
-**inequalityplot** Plot inequalities in 2-D space.
+Plot inequalities in 2-D space.
 
 `inequalityplot(f,x,y,color,resolution)` plots the inequality `f(x,y)` in 
 region `x(1) <= x <= x(2)` and `y(1) <= y <= y(2)` using specified color.
